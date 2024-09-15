@@ -1,0 +1,75 @@
+body {
+    margin: 0 50px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    font-family: "Lora", serif;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-button-first{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border: black solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button-second{
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: #f4f4f4;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-img{
+    background-image: url('/images/journy-main.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.main-h1{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.main-h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(111, 106, 106);
+}
