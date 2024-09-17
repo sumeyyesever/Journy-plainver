@@ -9,11 +9,12 @@
 <body>
     <div class="navbar-container">
         <div class="nav-logo">
-            <h1>Journy</h1>
+            <h1 onclick="window.location.href='index.html';">Journy</h1>
         </div>
         <div class="nav-buttons">
-            <button class="nav-button-first" onclick="window.location.href='home.html';">Login</button>
-            <button class="nav-button-second">Sign-Up</button>
+            <button class="nav-button-write" onclick="window.location.href='create-post.html';">Write</button>
+            <button class="nav-button-first" onclick="window.location.href='login.html';">Login</button>
+            <button class="nav-button-second" onclick="window.location.href='register.html';">Sign-Up</button>
         </div>
     </div>
     <hr>
@@ -24,7 +25,7 @@
             <div class="post-container">
                 <div class="post-contents">
                     <h1 class="post-title">Hello</h1>
-                    <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p class="post-date">Sep 4, 2024</p>
                 </div>    
                 <div class="post-image">
@@ -33,10 +34,12 @@
             </div>
         </div>
         <div class="about-container">
-            <img class="profile-img" src="/images/profile.jpg">
-            <p class="profile-name">Sümeyye Sever</p>
-            <p class="followers-count">100 Followers</p>
-            <p class="about-me">Some words in here❤️</p>
+            <div class="profile-container">
+                <img class="profile-img" src="/images/profile.jpg">
+                <p class="profile-name">Sümeyye Sever</p>
+                <p class="followers-count">100 Followers</p>
+                <p class="about-me">Some words in here❤️</p>
+            </div>
             <div class="about-buttons">
                 <button class="follow-button">Follow</button>
                 <button class="msg-button">✉️</button>

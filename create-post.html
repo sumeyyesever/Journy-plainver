@@ -3,32 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journy</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="navbar-container">
         <div class="nav-logo">
-            <h1 onclick="window.location.href='home.html';">Journy</h1>
+            <h1 onclick="window.location.href='index.html';">Journy</h1>
         </div>
         <div class="nav-buttons">
-            <button class="nav-button-write" onclick="window.location.href='create-post.html';">Write</button>
             <button class="nav-button-first" onclick="window.location.href='login.html';">Login</button>
             <button class="nav-button-second" onclick="window.location.href='register.html';">Sign-Up</button>
         </div>
     </div>
     <hr>
-    <div class="main-container">
-        <div class="main-content"></div>
-            <h1 class="main-h1">Your Online Journal</h1>
-            <h3 class="main-h3">Write whatever you want, read whichever post you reach</h3>
-        </div>
-        <div class="main-img"></div>    
+    <div class="create-container">
+        <form class="post-form">
+            <input class="input-title"  type="text" placeholder="Title" />
+            <textarea class="input-textarea"></textarea>
+            <input class="input-button" type="button" value="Publish"/>
+        </form>
     </div>
-    <hr>
-    <div class="footer-container">
-        <p>© Sumeyye Sever</p>
-    </div>
-   
+    
 </body>
 </html>
