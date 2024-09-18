@@ -48,7 +48,7 @@ body {
 }
 
 .main-img{
-    background-image: url('/images/journy-main.png');
+    background-image: url('images/journy-main.png');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
